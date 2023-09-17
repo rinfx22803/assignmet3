@@ -1,0 +1,29 @@
+@media only screen and (max-width: 704px) {
+    .grid-container{
+        display:grid;
+        justify-content: center;
+    }
+    .grid-container > div{
+        height: auto;
+        width: 71%;
+    }
+    section > .container {
+        width: 49%;
+    }
+    .grid {
+        display:grid;
+    }
+    section > .grid {
+        justify-content: start;
+    }
+    .container-chung_chi {
+        grid-template-columns:auto;
+    }
+    .chung-chi{
+        width:100%; 
+    }
+    .boder-chung_chi-2 {
+        border-style: none none solid none ;
+        border-color: #d6c08d;
+    }
+}
